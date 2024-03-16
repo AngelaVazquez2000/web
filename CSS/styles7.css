@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+.barr_prin{
+    width: 100%;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 9%, rgba(253,29,29,1) 59%, rgba(9,18,105,1) 100%);
+    z-index: 3;
+}
+
+.barr_prin img{
+    height: 90px;
+}
+
+.barr_prin a{
+    text-decoration: none;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 24px;
+    color: rgb(6, 6, 90);
+}
+
+body h1{
+    font-size: 34px;
+    color: rgb(10, 10, 10);
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+form{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 15px;
+    width: 90%;
+    left: 50px;
+    flex-wrap: wrap;
+}
+
+form label{
+    font-size: 24px;
+    color: rgb(52, 138, 212);
+}
+
+form input, select, option{
+    border-radius: 5px; 
+    border: none;
+    padding: 10px; 
+    font-size: 16px; 
+    outline: none; 
+    background-color: bisque;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #1c1c1c;
+    padding: 5px;
+    text-align: left;
+}
+
+th {
+    background-color: #5b040451;
+}
+
+tr:nth-child(even) {
+    background-color: #dfdef0;
+}
+
+tr:hover {
+    background-color: #c3afae;
+}

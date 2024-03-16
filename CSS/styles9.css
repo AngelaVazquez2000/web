@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+.barr_prin{
+    width: 100%;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 9%, rgba(253,29,29,1) 59%, rgba(9,18,105,1) 100%);
+    z-index: 3;
+}
+
+.barr_prin img{
+    height: 90px;
+}
+
+.barr_prin a{
+    text-decoration: none;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 24px;
+    color: rgb(6, 6, 90);
+}
+.seccion{
+    display: flex;
+    width: 90%;
+}
+
+.detalles{
+    margin:20px;
+    padding: 10px;
+    font-size: 26px;
+    border: 2px solid rgb(111, 109, 109);
+    border-radius: 5px 40px 5px 25px;
+}
+
+.detalles h2{
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(0, 0, 105);
+}
+
+
+body h1{
+    font-size: 34px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+form{
+    margin: 20px;
+    font-weight: bold;
+    color: rgb(35, 37, 38);
+}
+form label{
+    font-size: 18px;
+}
+
+form input{
+    border-radius: 5px; 
+    margin: 10px;
+    padding: 10px; 
+    font-size: 16px; 
+    background-color: rgb(220, 220, 220);
+}
